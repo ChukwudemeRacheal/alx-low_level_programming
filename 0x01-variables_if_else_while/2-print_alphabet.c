@@ -1,10 +1,9 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+#include <ctype.h>
 /**
  * main - entry point
  *
- * Description: prints an alphabet in lower case, followed by a new line.
+ * Description: prints an alphabet in lower case
  *
  * Return: always 0 (success)
  */
@@ -13,7 +12,7 @@ int main(void)
 
 	char abc;
 
-	for (abc = 'a'; abc <= 'Z'; ++abc)
+	for (abc = 'a'; abc <= 'z'; ++abc)
 	{
 		putchar(abc);
 	}
