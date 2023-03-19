@@ -11,7 +11,7 @@
 int main(void)
 {
 
-	char abc = { 'a' , 'b' , 'c' };
+	char abc;
 
 	for (abc = 'a'; abc <= 'Z'; ++abc)
 	{
