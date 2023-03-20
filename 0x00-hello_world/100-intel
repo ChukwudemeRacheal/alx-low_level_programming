@@ -1,4 +1,2 @@
-#include<stdio.h>
-/**
-* main - Entry point
-* 
+#!/bin/bash
+gcc -S -masm=intel $CFILE 
