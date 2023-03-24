@@ -17,7 +17,8 @@ if ((r / 10) == 0)
 if (q != 0)
 _putchar(' ');
 _putchar(r + '0');
-if (q == 9)continue;
+if (q == 9)
+continue;
 _putchar(',');
 _putchar(' ');
 }
@@ -25,7 +26,8 @@ else
 {
 _putchar((r / 10) + '0');
 _putchar((r % 10) + '0');
-if (q == 9)continue;
+if (q == 9)
+continue;
 _putchar(',');
 _putchar(' ');
 }
