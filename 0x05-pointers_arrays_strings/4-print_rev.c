@@ -1,26 +1,20 @@
 #include "main.h"
 
 /**
- * print_rev - 1mprime en reverse
- * @s: string
- * Return: 0
+ * print_rev - reverse the string printed
+ * @s: parameter for string to be printed
+ *
+ * Return: nothing
  */
 void print_rev(char *s)
-
 {
-	int long1 = 0;
-	int o;
+	int i;
 
-	while (*s != '\0')
+	for (i = 0; s[i] != '\0'; i++)
+		;
+	for (i = i - 1; s[i] != '\0'; i--)
 	{
-		long1++;
-		s++;
-	}
-	s--;
-	for (o - long1; o > 0; o--)
-	{
-		_putchar(*s);
-		s--;
+		_putchar(s[i]);
 	}
 	_putchar('\n');
 }
