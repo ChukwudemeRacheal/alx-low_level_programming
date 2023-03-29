@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
  * print_rev - 1mprime en reverse
  * @s: string
  * Return: 0
  */
 void print_rev(char *s)
+
 {
 	int long1 = 0;
 	int o;
