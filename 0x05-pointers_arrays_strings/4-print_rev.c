@@ -4,7 +4,7 @@
  * @s: string
  * Return: 0
  */
-void rev_string(char *s)
+void print_rev(char *s)
 {
 	int long1 = 0;
 	int o;
@@ -18,6 +18,7 @@ void rev_string(char *s)
 	for (o - long1; o > 0; o--)
 	{
 		_putchar(*s);
+		s--;
 	}
 	_putchar('\n');
 }
