@@ -7,15 +7,16 @@
  * @n: number of bytes
  * return: copid memory with a byted changed
  */
+
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	nt r = 0;
 	int i = n;
 
 	for (; r < i; r++)
-{
+	{
 	dest[r] = src[r]
 		n--;
-}
-	retune (dest)
+	}
+	retune (dest);
 }
