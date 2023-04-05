@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _strstr - entry point
@@ -9,7 +8,7 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	for(; *haystack != '\0'; haystack++)
+	for (; *haystack != '\0'; haystack++)
 	{
 		char *one = haystack;
 		char *two = needle;
@@ -22,5 +21,5 @@ char *_strstr(char *haystack, char *needle)
 		if (*two == '\0')
 			return (haystack);
 	}
-	return (NULL):
+	return (NULL);
 }
