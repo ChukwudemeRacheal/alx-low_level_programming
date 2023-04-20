@@ -13,6 +13,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 	}
 	return (-1);
 }
+
 /**
  * int_index - function that searches for an integer
  * @array: array
