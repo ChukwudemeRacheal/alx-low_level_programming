@@ -32,7 +32,7 @@ void print_all(const char * const format, ...)
 				break;
 				case 's':
 				str = "(nil)";
-				printf("%s%s", sep, str);
+				printf("%s%d", sep, int);
 				break;
 				default:
 				i++;
