@@ -40,6 +40,7 @@ int _strlen(char *s)
 
 /**
  * error - handles errors far main
+ * Return: 0
  */
 void errors(void)
 {
@@ -52,7 +53,7 @@ void errors(void)
  * @argc:numberof arrangements
  * @argv: array of arrangements
  *
- * Retun: always 0 (success)
+ * Return: always 0 (success)
  */
 int main(int argc, char *argv[])
 {
